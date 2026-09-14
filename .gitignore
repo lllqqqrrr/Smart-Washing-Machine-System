@@ -1,0 +1,76 @@
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.orig
+
+# Build
+build/
+dist/
+*.o
+*.a
+*.so
+*.exe
+*.dll
+*.dylib
+
+# Keil MDK
+*.uvguard.*
+*.uvgui.*
+*.uvopt
+*.lib
+*.lnp
+*.scvd
+JOM.log
+RTE/
+*.d
+
+# Proteus
+*.pdsbak
+*.DSN.bak
+*.ARES.bak
+Proteus_Project_Log.txt
+
+# KiCAD
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-backups/
+
+# OS
+.DS_Store
+Thumbs.db
+.windows
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.Python
+.env
+venv/
+env/
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Logs
+*.log
+*.log.*
+logs/
+
+# Temp
+*.tmp
+*.temp
+*.bak
+~*
+
+# Debug
+*.dmp
+*.dbg
+.gdb_history
